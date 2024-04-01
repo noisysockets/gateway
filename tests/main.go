@@ -11,12 +11,12 @@ package main
 
 import (
 	"context"
-	"html/template"
 	"log/slog"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+	"text/template"
 
 	"github.com/docker/docker/api/types/container"
 	"github.com/noisysockets/noisysockets"

@@ -43,9 +43,10 @@ test:
   COPY tests/go.mod tests/go.sum .
   RUN go mod download
   COPY tests/ tests
+  WORKDIR tests
   ARG VERSION=latest-dev
   WITH DOCKER --load ghcr.io/noisysockets/gateway:${VERSION}=(+docker --VERSION=${VERSION}) --allow-privileged
-    RUN go run tests/main.go
+    RUN go run main.go
   END
 
 wireguard-go:

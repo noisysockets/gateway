@@ -1,6 +1,6 @@
 # gateway
 
-A WireGuard-Go Docker Image With An Embedded DNS Forwarder. Suitable for use as a containerized network exit node for [NoisySockets](https://github.com/noisysockets/noisysockets).
+A WireGuard-Go Docker Image With An Embedded DNS Forwarder. Suitable for use as a containerized network exit node for [Noisy Sockets](https://github.com/noisysockets/noisysockets).
 
 ## Usage
 
